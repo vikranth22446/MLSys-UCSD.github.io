@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Can Scheduling Overhead Dominate LLM Inference Performance? A Study of CPU Scheduling Overhead on Two Popular LLM Inference Systems',
+    description: `A study and analysis on the cpu scheduling overhead of two popular open source systems`,
+    imgSrc: '/static/images/projects/iterative_scheduling_overhead.gif',
+    href: 'https://mlsys.wuklab.io/posts/scheduling_overhead/',
+  },
+  {
     title: 'MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving',
     description: `MuxServe is a serving system using flexible spatial-temporal multiplexing, leverages dynamic LLM popularity and unbalanced resource utilization to achieve high GPU utilization and reduce serving costs, outperforming baselines by 1.8x in throughput and 2.9x in SLO attainment on synthetic workloads.`,
     imgSrc: '/static/images/projects/muxserve_cover.gif',
